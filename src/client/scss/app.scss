@@ -1,0 +1,45 @@
+@import 'variables';
+
+body {
+	margin: 0px;
+	position: relative;
+	font-family: $primary-font-family;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	background-color: $background-alt;
+	color: $primary-alt;
+	a {
+		color: $primary-alt;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+body.alternate {
+	background-color: $background-alt;
+	color: $primary-alt;
+	a {
+		color: $primary-alt;
+	}
+}
+
+#App {
+	padding: 0px 20px;
+	max-width: 1000px;
+}
+
+@media (min-width: $phone) {
+	#App {
+		padding: 0px 40px;
+	}
+}
+
+@media (min-width: $tablet) {
+	#App {
+		width: 70%;
+		margin: auto;
+	}
+}
+
