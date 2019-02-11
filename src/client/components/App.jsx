@@ -17,7 +17,7 @@ class App extends Component {
         <Jumbo></Jumbo>
         <About></About>
         <Footer></Footer>
-		  </div>
+      </div>
     );
   }
 
