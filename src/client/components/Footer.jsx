@@ -13,7 +13,7 @@ class Footer extends Component {
                     <a className="Footer__item" target="_blank" href="https://twitter.com/liam_mode">Twitter</a>
                 </div>
                 <div className="Footer__right">
-                    <div className="Footer__item">© 2016 </div>
+                    <div className="Footer__item">© 2018</div>
                     <div className="Footer__item">Liam Mellor</div>
                 </div>
             </footer>

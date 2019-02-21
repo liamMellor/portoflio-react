@@ -6,6 +6,7 @@
 	line-height: 58px;
 	font-weight: 500;
 	font-family: $jumbo-font-family;
+
 	&__line {
 		animation-delay: 1s;
 	}
@@ -17,9 +18,13 @@
 	}
 
 	@media (min-width: $tablet) {
-		margin: 200px 0px;
-		font-size: 110px;
-		line-height: 110px;
+		margin: 0px 0px;
+		font-size: 120px;
+		line-height: 120px;
+		height: 93vh;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
 		&--secondary {
 			font-size: 80px;
 			line-height: 80px;
