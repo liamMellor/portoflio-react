@@ -14,7 +14,9 @@ class About extends Component {
                     Right now, I am building products for live streaming at <a href="https://vimeo.com/features/livestreaming" target="_blank" style={{ 'textDecoration': 'underline' }}>Vimeo</a>.
                     <br></br>
                     <br></br>
-                    I like talking product and have a strong interest in UX and you'll find that reflected in my work and processes. <a className="About__email" href="mailto:liam.r.mellor@gmail.com?Subject=Hello">Get in touch with me!</a>
+                    I like talking product and have a strong interest in UX and you'll find that reflected in my work and processes.
+                    <br></br>
+                    <a className="About__email" href="mailto:liam.r.mellor@gmail.com?Subject=Hello">Get in touch with me!</a>
                 </div>
                 <Cv />
             </div>
