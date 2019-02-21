@@ -7,7 +7,7 @@ class About extends Component {
 
     render() {
         return (
-            <div className="About animation fadeDown">
+            <div className="About border-light animation fadeDown">
                 <div className="About__description">
                     Heya, thanks for visiting! My name's Liam and I live in Brooklyn, New York.
                     I am a versed and thoughtful engineer who loves building useful and intuitive experiences.

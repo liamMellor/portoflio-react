@@ -2,12 +2,11 @@
 
 .Cv {
 
-    &__link {
-        color: $primary-light-alt !important;
-		text-decoration: underline;
+  &__link {
+			text-decoration: underline;
     }
 
-    &__experience, &__education, &__personal {
+  &__experience, &__education, &__personal {
 	
 		animation-delay: 2.0s;
 		display: flex;
@@ -26,10 +25,9 @@
 			line-height: 1.75
 		}
 		&__2, &__3 {
-			color: $primary-light-alt;
 			font-size: 16px;
 		}
-    }
+  }
     
     &__education, &__personal {
 		padding-top: 50px;

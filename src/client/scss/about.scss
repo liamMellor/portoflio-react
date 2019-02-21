@@ -1,7 +1,6 @@
 @import 'variables';
 
 .About {
-	border-top: 1px solid $primary-light-alt;
 	font-size: $primary-font;
 	animation-delay: 2.0s;
 
@@ -9,10 +8,6 @@
 		padding: 25px;
 		line-height: 1.75;
 		animation-delay: 2.0s;
-	}
-	&__link {
-		color: $primary-light-alt !important;
-		text-decoration: underline;
 	}
 	&__email {
 		text-decoration: underline;

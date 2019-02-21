@@ -6,14 +6,20 @@ body {
 	font-family: $primary-font-family;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	background-color: $background-alt;
-	color: $primary-alt;
+	background-color: $background;
+	color: $primary;
 	a {
-		color: $primary-alt;
+		color: $primary;
 		text-decoration: none;
 		&:hover {
 			text-decoration: underline;
 		}
+	}
+	.light {
+		color: $primary-light;
+	}
+	.border-light {
+		border-top: 1px solid $primary-light;
 	}
 }
 
@@ -23,6 +29,13 @@ body.alternate {
 	a {
 		color: $primary-alt;
 	}
+	.light {
+		color: $primary-light-alt;
+	}
+	.border-light {
+		border-top: 1px solid $primary-light-alt;
+	}
+
 }
 
 #App {
