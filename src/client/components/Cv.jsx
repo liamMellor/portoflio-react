@@ -35,11 +35,6 @@ class Cv extends Component {
                             <div className="Cv__experience__2 light">Engineering Director</div>
                             <div className="Cv__experience__3 light">September 2013 - June 2015</div>
                         </div>
-                        <div className="Cv__experience__item">
-                            <div className="Cv__experience__1"><a href="http://steinhardt.nyu.edu/" target="_blank">New York University, Steinhardt</a></div>
-                            <div className="Cv__experience__2 light">Studio Technician</div>
-                            <div className="Cv__experience__3 light">December 2012 - December 2014</div>
-                        </div>
                     </div>
                 </div>
                 <div className="Cv__education">
