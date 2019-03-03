@@ -21,21 +21,45 @@ body {
 	.border-light {
 		border-top: 1px solid $primary-light;
 	}
-}
-
-body.alternate {
-	background-color: $background-alt;
-	color: $primary-alt;
-	a {
-		color: $primary-alt;
+	&.alternate--1 {
+		background-color: $background-alt--1;
+		color: $primary-alt--1;
+		a {
+			color: $primary-alt--1;
+		}
+		.light {
+			color: $primary-light-alt--1;
+		}
+		.border-light {
+			border-top: 1px solid $primary-light-alt--1;
+		}
 	}
-	.light {
-		color: $primary-light-alt;
+	&.alternate--2 {
+		background-color: $background-alt--2;
+		color: $primary-alt--2;
+		a {
+			color: $primary-alt--2;
+		}
+		.light {
+			color: $primary-light-alt--2;
+		}
+		.border-light {
+			border-top: 1px solid $primary-light-alt--2;
+		}
 	}
-	.border-light {
-		border-top: 1px solid $primary-light-alt;
+	&.alternate--3 {
+		background-color: $background-alt--3;
+		color: $primary-alt--3;
+		a {
+			color: $primary-alt--3;
+		}
+		.light {
+			color: $primary-light-alt--3;
+		}
+		.border-light {
+			border-top: 1px solid $primary-light-alt--3;
+		}
 	}
-
 }
 
 #App {
