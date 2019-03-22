@@ -10,13 +10,13 @@ class About extends Component {
             <div className="About border-light animation fadeDown">
                 <div className="About__description">
                     Heya, thanks for visiting! My name's Liam and I live in Brooklyn, New York.
-                    I am a versed and thoughtful engineer who loves building useful and intuitive experiences.
-                    Right now, I am building products for live streaming at <a href="https://vimeo.com/features/livestreaming" target="_blank" style={{ 'textDecoration': 'underline' }}>Vimeo</a>.
+                    I am a versed and thoughtful engineer who loves building useful and intuitive web experiences.
+                    Right now, I'm building products and tools for video creators at <a href="https://vimeo.com" target="_blank" style={{ 'textDecoration': 'underline' }}>Vimeo</a>.
                     <br></br>
                     <br></br>
-                    I like talking product and have a strong interest in UX and you'll find that reflected in my work and processes.
+                    I have a strong interest in UX which you'll find reflected in my work and processes.
                     <br></br>
-                    <a className="About__email" href="mailto:liam.r.mellor@gmail.com?Subject=Hello">Get in touch with me!</a>
+                    <a className="About__email" href="mailto:liam.r.mellor@gmail.com?Subject=Hello">Touch Base!</a>
                 </div>
                 <Cv />
             </div>
