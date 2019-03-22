@@ -15,8 +15,7 @@ class About extends Component {
                     <br></br>
                     <br></br>
                     I have a strong interest in UX which you'll find reflected in my work and processes.
-                    <br></br>
-                    <a className="About__email" href="mailto:liam.r.mellor@gmail.com?Subject=Hello">Touch Base!</a>
+                    <span> </span><a className="About__email" href="mailto:liam.r.mellor@gmail.com?Subject=Hello">Touch Base!</a>
                 </div>
                 <Cv />
             </div>
