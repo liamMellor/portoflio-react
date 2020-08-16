@@ -11,9 +11,14 @@ class Cv extends Component {
                     <div className="Cv__experience__title">Experience</div>
                     <div className="Cv__experience__text">
                         <div className="Cv__experience__item">
+                            <div className="Cv__experience__1"><a href="https://www.teachable.com/" target="_blank">Teachable</a></div>
+                            <div className="Cv__experience__2 light">Front-End Growth Engineer</div>
+                            <div className="Cv__experience__3 light">September 2019 - Present</div>
+                        </div>
+                        <div className="Cv__experience__item">
                             <div className="Cv__experience__1"><a href="https://www.vimeo.com/" target="_blank">Vimeo</a></div>
                             <div className="Cv__experience__2 light">Front-End Engineer</div>
-                            <div className="Cv__experience__3 light">July 2017 - Present</div>
+                            <div className="Cv__experience__3 light">July 2017 - September 2019</div>
                         </div>
                         <div className="Cv__experience__item">
                             <div className="Cv__experience__1"><a href="https://www.delivery.com/" target="_blank">Delivery.com</a></div>
