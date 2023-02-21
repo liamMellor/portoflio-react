@@ -19,7 +19,10 @@ body {
 		color: $primary-light;
 	}
 	.border-light {
-		border-top: 1px solid $primary-light;
+		border-top: 5px solid $primary-light;
+	}
+	.border-light-bottom {
+		border-bottom: 5px solid $primary-light;
 	}
 	&.alternate--1 {
 		background-color: $background-alt--1;
@@ -31,7 +34,10 @@ body {
 			color: $primary-light-alt--1;
 		}
 		.border-light {
-			border-top: 1px solid $primary-light-alt--1;
+			border-top: 5px solid $primary-light-alt--1;
+		}
+		.border-light-bottom {
+			border-bottom: 5px solid $primary-light-alt--1;
 		}
 	}
 	&.alternate--2 {
@@ -46,6 +52,9 @@ body {
 		.border-light {
 			border-top: 1px solid $primary-light-alt--2;
 		}
+		.border-light-bottom {
+			border-bottom: 5px solid $primary-light-alt--2;
+		}
 	}
 	&.alternate--3 {
 		background-color: $background-alt--3;
@@ -58,6 +67,9 @@ body {
 		}
 		.border-light {
 			border-top: 1px solid $primary-light-alt--3;
+		}
+		.border-light-bottom {
+			border-bottom: 5px solid $primary-light-alt--3;
 		}
 	}
 }

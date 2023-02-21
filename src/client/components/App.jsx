@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import styles from "../scss/app.scss";
-import animation from "../scss/animation.scss";
+import "../scss/app.scss";
+import "../scss/animation.scss";
 
-import Header from './Header';
+import Info from './Info';
 import Jumbo from './Jumbo';
 import About from './About';
 import Footer from './Footer';
@@ -13,8 +13,8 @@ class App extends Component {
   render() {
     return (
       <div id="App">
-        <Header />
         <Jumbo />
+        <Info />
         <About />
         <Footer />
       </div>

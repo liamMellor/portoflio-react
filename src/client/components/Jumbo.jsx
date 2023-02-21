@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from "../scss/jumbo.scss";
+import "../scss/jumbo.scss";
 
 class Jumbo extends Component {
 
@@ -7,8 +7,13 @@ class Jumbo extends Component {
 
         return (
             <div className="Jumbo">
-                <div className="Jumbo__line animation fadeLeft">Frontend</div>
-                <div className="Jumbo__line animation fadeRight">Developer</div>
+                <div className="Jumbo__line animation fadeRight">Software /</div>
+                <div className="Jumbo__line animation fadeRight">Product /</div>
+                <div className="Jumbo__line animation fadeRight">Growth /</div>
+                <br></br>
+                <div className="Jumbo__line animation fadeLeft">
+                    <span className="cursor animation fadeLeft"></span>Engineer
+                </div>
             </div>
         );
     }

@@ -3,7 +3,8 @@
 .Footer {
 	display: flex;
 	justify-content: space-between;
-	margin: 0px 25px 75px;
+	margin: 0px 0px 75px;
+	font-size: 20px;		
 	animation-delay: 1.5s;
 
 	&__left, &__right {
@@ -54,5 +55,5 @@
 }
 
 .Footer.about-page {
-	margin: 100px 25px 60px;
+	margin: 100px 0px 15px;
 }

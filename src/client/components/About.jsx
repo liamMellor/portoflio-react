@@ -1,25 +1,26 @@
 import React, { Component } from "react";
-import styles from "../scss/about.scss";
-
-import Cv from './Cv';
+import "../scss/about.scss";
 
 class About extends Component {
 
     render() {
         return (
-            <div className="About border-light animation fadeDown">
+            <div className="About border-light border-light-bottom animation fadeRight">
                 <div className="About__description">
-                    Heya, thanks for visiting - My name's Liam and I live in Brooklyn, New York!
+                    I'm a software engineer and proud mentor whose been building web apps and online products since 2015.
                     <br></br>
                     <br></br>
-                    I'm a Frontend and Growth focused engineer. I love working with A/B experiments,
-                    growth hacks, and user data! Right now, I'm helping <em>grow</em> the business at
-                    <span> </span><a href="https://teachable.com" target="_blank" style={{ 'textDecoration': 'underline' }}>Teachable.com</a>
-                    <br></br>
-                    <br></br>
-                    If you love the frontend web and growth like I do ... <a className="About__email" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">hit me up!</a>
+                    I love being the glue between engineering, design, product and data and I have a demonstrated track record driving metrics and organizing teams (especially Growth teams).
+                    <br></br> 
+                    <a
+                        className="About__email"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="mailto:liam.r.mellor@gmail.com?subject=Never gonna give you up!&body=Never gonna let you down!"
+                    >
+                        Get in touch!
+                    </a>
                 </div>
-                <Cv />
             </div>
         );
     }

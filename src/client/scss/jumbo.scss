@@ -2,26 +2,41 @@
 
 .Jumbo {
 	margin: 68px 0px 140px;
-	font-size: 58px;
-	line-height: 58px;
+	font-size: 66px;
+	line-height: 66px;
 	font-weight: 500;
 	font-family: $jumbo-font-family;
 
 	&__line {
-		animation-delay: 1s;
+		&:first-child {
+			margin-top: 0px;
+		}
+		&:nth-child(2) {
+			animation-delay: 0.25s;
+		}
+		&:nth-child(3) {
+			animation-delay: 0.5s;
+		}
+		&:last-child {
+			animation-delay: 0.75s;
+		}
+	}
+
+	&__break {
+		display: block;
 	}
 
 	@media (min-width: $phone) {
 		margin: 100px 0px 140px;
-		font-size: 58px;
-		line-height: 58px;
+		font-size: 66px;
+		line-height: 66px;
 	}
 
 	@media (min-width: $tablet) {
 		margin: 0px 0px;
-		font-size: 120px;
-		line-height: 120px;
-		height: 95vh;
+		font-size: 100px;
+		line-height: 100px;
+		height: 65vh;
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: center;
@@ -29,7 +44,6 @@
 			font-size: 80px;
 			line-height: 80px;
 			padding-left: 25px;
-
 		}
 	}
 }
