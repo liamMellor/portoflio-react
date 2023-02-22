@@ -7,7 +7,7 @@ class About extends Component {
         return (
             <div className="About animation fadeRight">
                 <div className="About__description">
-                    Hello. I'm{' '}
+                    Hello! I'm{' '}
                     <a
                         className="About__email"
                         target="_blank"
