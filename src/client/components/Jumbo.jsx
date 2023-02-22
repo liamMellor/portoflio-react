@@ -12,7 +12,7 @@ class Jumbo extends Component {
                 <div className="Jumbo__line animation fadeRight">Growth /</div>
                 <br></br>
                 <div className="Jumbo__line animation fadeLeft">
-                    <span className="cursor animation fadeLeft"></span>Engineer
+                    <span className="cursor animation fadeLeft">{'> '}</span>Engineer
                 </div>
             </div>
         );

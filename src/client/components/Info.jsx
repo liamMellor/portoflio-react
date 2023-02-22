@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "../scss/info.scss";
 
 class Info extends Component {
@@ -7,26 +8,14 @@ class Info extends Component {
 
         return (
             <div className="Info animation fadeRight">
-                <div className="Info__line border-light">
-                    <div className="Info__line__name animation fadeRight">
+                <div className="Info__resume">
                     <a
-                        className="Info__line__name__link"
-                        href="https://www.linkedin.com/in/liam-mellor-8737328b"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="LiamMellorResume.pdf"
                     >
-                        {'> '}LIAM MELLOR
+                        <img src="../../../newspaper-yellow.png" />
                     </a>
-                    </div>
-                </div>
-                <div className="Info__line border-light">
-                    <div className="Info__line__name animation fadeRight">
-                        <a
-                            className="Info__line__name__link"
-                            href="LiamMellorResume.pdf"
-                        >
-                            {'> '}Resume
-                        </a>
-                        
-                    </div>
                 </div>
             </div>
         );

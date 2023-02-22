@@ -5,12 +5,16 @@
 	animation-delay: 1.5s;
 
 	&__description {
-		padding: 25px 0px;
+		padding: 0px 0px;
 		line-height: 1.75;
 		animation-delay: 1.5s;
 	}
 	&__email {
 		text-decoration: underline;
+		&:hover {
+			transition: 0.5s;
+			text-decoration-color: $primary-yellow;	
+		}
 	}
 
 }

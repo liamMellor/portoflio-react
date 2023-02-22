@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import "../scss/app.scss";
 import "../scss/animation.scss";
 
@@ -12,12 +12,14 @@ class App extends Component {
 
   render() {
     return (
-      <div id="App">
-        <Jumbo />
+      <Fragment>
         <Info />
-        <About />
-        <Footer />
-      </div>
+        <div id="App">
+          <Jumbo />
+          <About />
+          <Footer />
+        </div>
+      </Fragment>
     );
   }
 

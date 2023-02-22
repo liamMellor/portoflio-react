@@ -8,69 +8,19 @@ body {
 	-webkit-font-smoothing: antialiased !important;
 	background-color: $background;
 	color: $primary;
+	position: relative;
 	a {
 		color: $primary;
 		text-decoration: none;
+		text-decoration-color: $background;
 		&:hover {
+			transition: text-decoration 0.5s ease;
 			text-decoration: underline;
+			text-decoration-color: $primary-yellow !important;	
 		}
 	}
 	.light {
 		color: $primary-light;
-	}
-	.border-light {
-		border-top: 5px solid $primary-light;
-	}
-	.border-light-bottom {
-		border-bottom: 5px solid $primary-light;
-	}
-	&.alternate--1 {
-		background-color: $background-alt--1;
-		color: $primary-alt--1;
-		a {
-			color: $primary-alt--1;
-		}
-		.light {
-			color: $primary-light-alt--1;
-		}
-		.border-light {
-			border-top: 5px solid $primary-light-alt--1;
-		}
-		.border-light-bottom {
-			border-bottom: 5px solid $primary-light-alt--1;
-		}
-	}
-	&.alternate--2 {
-		background-color: $background-alt--2;
-		color: $primary-alt--2;
-		a {
-			color: $primary-alt--2;
-		}
-		.light {
-			color: $primary-light-alt--2;
-		}
-		.border-light {
-			border-top: 1px solid $primary-light-alt--2;
-		}
-		.border-light-bottom {
-			border-bottom: 5px solid $primary-light-alt--2;
-		}
-	}
-	&.alternate--3 {
-		background-color: $background-alt--3;
-		color: $primary-alt--3;
-		a {
-			color: $primary-alt--3;
-		}
-		.light {
-			color: $primary-light-alt--3;
-		}
-		.border-light {
-			border-top: 1px solid $primary-light-alt--3;
-		}
-		.border-light-bottom {
-			border-bottom: 5px solid $primary-light-alt--3;
-		}
 	}
 }
 
