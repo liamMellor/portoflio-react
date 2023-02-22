@@ -12,7 +12,7 @@ class About extends Component {
                         className="About__email"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.linkedin.com/in/liam-mellor-8737328b"
+                        href="https://www.linkedin.com/in/liam-mellor"
                     >
                         Liam Mellor
                     </a>
